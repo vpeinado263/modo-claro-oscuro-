@@ -1,8 +1,7 @@
 export const TYPES = {
-  /*****CONTADOR*****/
   INCREMENTAR: "INCREMENTAR",
-  RESETEAR: "RESETEAR",
   DECREMENTAR: "DECREMENTAR",
+  RESETEAR: "RESETEAR",
 };
 
 //Este archivo corresponde a todas la acciones que quiera implementar en mi proyecto.
