@@ -34,3 +34,5 @@ Este proyecto es una práctica de React enfocada en aprender sobre el manejo de 
 1. Profundizar en el uso de hooks avanzados y patrones de diseño en React.
 2. Mejorar el sistema de temas claro-oscuro con transiciones más suaves.
 3. Implementar un estado global más complejo y prácticas de gestión de estado eficientes.
+
+in process : https://5ta-tarea-react-next-js.vercel.app/
