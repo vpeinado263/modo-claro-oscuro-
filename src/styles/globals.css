@@ -3,7 +3,12 @@
   margin: 0;
   padding: 0;
 }
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .dark {
-  background-color: black;
-  color: white;
+  background-color: #111111;
+  color: #ffffff;
 }
