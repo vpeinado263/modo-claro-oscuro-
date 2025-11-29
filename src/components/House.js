@@ -11,7 +11,7 @@ const House = () => {
       }}
       className={theme} // <-- aplicación del tema actual
     >
-      Home
+    
     </div>
   );
 };
