@@ -1,3 +1,3 @@
 export const initialState = {
-    contador: 0
+  contador: 0,
 };

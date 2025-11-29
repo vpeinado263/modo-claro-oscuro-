@@ -1,6 +1,6 @@
 ## 5ta-Tarea-REACT-NEXT.JS
 
-Este proyecto es una práctica de React enfocada en aprender sobre el manejo de estado global, la creación de componentes reutilizables, y la implementación de un sistema de tema claro-oscuro utilizando **Context** y  **useReducer** . Durante el desarrollo, exploré conceptos fundamentales de React como el contexto, la recursividad, los eventos, y la reutilización de código.
+Este proyecto es una práctica de React enfocada en aprender sobre el manejo de estado global, la creación de componentes reutilizables, y la implementación de un sistema de tema claro-oscuro utilizando **Context** y **useReducer** . Durante el desarrollo, exploré conceptos fundamentales de React como el contexto, la recursividad, los eventos, y la reutilización de código.
 
 ## Contenido del Proyecto
 
@@ -12,10 +12,10 @@ Este proyecto es una práctica de React enfocada en aprender sobre el manejo de 
 
 ## Desafíos Encontrados
 
-* **Recursividad Infinita en el Componente `Home`** :
+- **Recursividad Infinita en el Componente `Home`** :
   La función `Home` y el componente con el mismo nombre causaban una llamada infinita. Esto resultó en el error `Maximum call stack`.
-* **Solución** : Renombrar o revisar la estructura de llamadas para evitar la recursividad accidental.
-* **Gestión de Eventos en Formularios** :
+- **Solución** : Renombrar o revisar la estructura de llamadas para evitar la recursividad accidental.
+- **Gestión de Eventos en Formularios** :
   Al utilizar `e.target.value` para capturar valores de los inputs, comprendí la importancia de identificar correctamente el objetivo del evento.
 
 ## Conclusiones y Aprendizajes

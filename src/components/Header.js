@@ -1,11 +1,10 @@
 import { ThemeContext } from "@/context/ThemeContextProvider";
 import { useContext } from "react";
-import Image from 'next/image'; // Importa el componente Image de next/image
+import Image from "next/image"; // Importa el componente Image de next/image
 
 const Header = () => {
   const data = useContext(ThemeContext);
   const [toggleTheme, handleTheme] = data;
-
 
   return (
     <header className={toggleTheme}>
@@ -23,7 +22,7 @@ const Header = () => {
           border: none;
         }
         img {
-        width: 30px;
+          width: 30px;
         }
       `}</style>
     </header>

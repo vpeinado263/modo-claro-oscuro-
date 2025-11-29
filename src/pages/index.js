@@ -14,14 +14,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/react.png" />
       </Head>
-      
+
       <ThemeContextProvider>
-         <Header/>
-          <main>
-            <House/>
-            <Contador/>
-          </main>
-          <Footer/>
+        <Header />
+        <main>
+          <House />
+          <Contador />
+        </main>
+        <Footer />
       </ThemeContextProvider>
     </>
   );
