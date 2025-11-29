@@ -2,15 +2,14 @@ import { ThemeContext } from "@/context/ThemeContextProvider";
 import { useContext } from "react";
 
 const House = () => {
-  const data = useContext(ThemeContext);
-  const [toggleTheme] = data;
+  const { theme } = useContext(ThemeContext); // <-- ahora usamos theme, no toggleTheme
 
   return (
     <div
       style={{
         height: "100vh",
       }}
-      className={toggleTheme}
+      className={theme} // <-- aplicación del tema actual
     >
       Home
     </div>
