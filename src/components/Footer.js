@@ -12,10 +12,10 @@ const Footer = () => {
         <p>© 2025 — Víctor Peinado</p>
 
         <div className="icons">
-          <Link href="https://www.linkedin.com/feed/" target="_blank">
+          <Link href="https://github.com/"  target="_blank">
             <Image src="/github.svg" width={26} height={26} alt="GitHub" />
           </Link>
-          <Link href="https://github.com/" target="_blank">
+          <Link href="https://www.linkedin.com/feed/" target="_blank">
             <Image src="/linkedin.svg" width={26} height={26} alt="LinkedIn" />
           </Link>
         </div>
