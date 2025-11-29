@@ -2,7 +2,7 @@ import Contador from "@/components/contador";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import House from "@/components/House";
-import ThemeContextProvider, { ThemeContext } from "@/context/ThemeContextProvider";
+import ThemeContextProvider from "@/context/ThemeContextProvider";
 import Head from "next/head";
 
 export default function Home() {
