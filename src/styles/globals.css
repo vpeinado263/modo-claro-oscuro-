@@ -1,14 +1,21 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.light {
-  background-color: #ffffff;
-  color: #000000;
+html.light {
+  --bg: #ffffff;
+  --bg-soft: #f4f4f4;
+  --text: #1a1a1a;
+  --accent: #0070f3;
+  --border: #e1e1e1;
 }
 
-.dark {
-  background-color: #111111;
-  color: #ffffff;
+html.dark {
+  --bg: #0e0e0f;
+  --bg-soft: #1a1a1c;
+  --text: #e4e4e4;
+  --accent: #4ea8ff;
+  --border: #2a2a2a;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.25s ease, color 0.25s ease;
 }
