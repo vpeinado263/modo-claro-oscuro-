@@ -10,9 +10,7 @@ const House = () => {
         height: "100vh",
       }}
       className={theme} // <-- aplicación del tema actual
-    >
-    
-    </div>
+    ></div>
   );
 };
 

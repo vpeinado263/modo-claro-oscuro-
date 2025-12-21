@@ -12,7 +12,7 @@ const Footer = () => {
         <p>© 2025 — Víctor Peinado</p>
 
         <div className="icons">
-          <Link href="https://github.com/"  target="_blank">
+          <Link href="https://github.com/" target="_blank">
             <Image src="/github.svg" width={26} height={26} alt="GitHub" />
           </Link>
           <Link href="https://www.linkedin.com/feed/" target="_blank">
@@ -45,7 +45,9 @@ const Footer = () => {
 
         a {
           opacity: 0.8;
-          transition: opacity 0.2s, transform 0.2s;
+          transition:
+            opacity 0.2s,
+            transform 0.2s;
         }
 
         a:hover {

@@ -17,5 +17,7 @@ html.dark {
 body {
   background: var(--bg);
   color: var(--text);
-  transition: background 0.25s ease, color 0.25s ease;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
 }
